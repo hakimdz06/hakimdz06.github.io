@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio d'un développeur web — projets, compétences et contact.">
+  <title>Web Developer — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="nav">
+    <a class="logo" href="#home">&lt;DEV<span>/</span>&gt;</a>
+    <button class="menu" aria-label="Ouvrir le menu">☰</button>
+    <nav>
+      <a href="#about">À propos</a>
+      <a href="#skills">Compétences</a>
+      <a href="#projects">Projets</a>
+      <a href="#contact" class="nav-cta">Me contacter</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">DÉVELOPPEUR WEB · FREELANCE</p>
+        <h1>Je transforme des idées en <span>expériences web.</span></h1>
+        <p class="lead">Je conçois des sites modernes, rapides et responsives avec une attention particulière portée au design, aux performances et à l'expérience utilisateur.</p>
+        <div class="actions">
+          <a href="#projects" class="button primary">Voir mes projets ↗</a>
+          <a href="#contact" class="button ghost">Travaillons ensemble</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="terminal">
+          <div class="terminal-top"><i></i><i></i><i></i><span>developer.js</span></div>
+          <pre><code><span class="purple">const</span> developer = {
+  role: <span class="green">"Web Developer"</span>,
+  focus: <span class="green">"Modern Web"</span>,
+  stack: [<span class="green">"HTML"</span>,
+          <span class="green">"CSS"</span>,
+          <span class="green">"JavaScript"</span>],
+  status: <span class="green">"available"</span>
+};</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div>
+        <p class="eyebrow">01 — À PROPOS</p>
+        <h2>Créer du web qui a du <span>sens.</span></h2>
+      </div>
+      <div class="about-text">
+        <p>Je suis développeur web passionné par la création de produits numériques propres, intuitifs et efficaces.</p>
+        <p>De la landing page au site complet, je peux prendre une idée, construire l'interface et la transformer en expérience prête à être utilisée.</p>
+        <div class="stats">
+          <div><strong>100%</strong><small>Responsive</small></div>
+          <div><strong>24/7</strong><small>Passion code</small></div>
+          <div><strong>∞</strong><small>Idées à créer</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <p class="eyebrow">02 — COMPÉTENCES</p>
+      <h2>Mon <span>stack.</span></h2>
+      <div class="skills-grid">
+        <article><b>01</b><h3>Frontend</h3><p>HTML5 · CSS3 · JavaScript · Responsive Design · Animations</p></article>
+        <article><b>02</b><h3>Backend</h3><p>APIs · Bases de données · Authentification · Architecture web</p></article>
+        <article><b>03</b><h3>UI / UX</h3><p>Interfaces modernes · Design systems · Mobile-first · Accessibilité</p></article>
+        <article><b>04</b><h3>Performance</h3><p>SEO technique · Optimisation · Core Web Vitals · Déploiement</p></article>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="section-heading">
+        <div><p class="eyebrow">03 — PROJETS</p><h2>Quelques <span>créations.</span></h2></div>
+        <p>Remplace ces cartes par tes vrais projets et leurs liens.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project p1"><div class="project-number">01</div><div><span>WEB APP</span><h3>Nova Dashboard</h3><p>Interface SaaS moderne avec statistiques et gestion de données.</p><a href="#" onclick="return false;">Voir le projet ↗</a></div></article>
+        <article class="project p2"><div class="project-number">02</div><div><span>E-COMMERCE</span><h3>Atelier Store</h3><p>Expérience boutique rapide, élégante et pensée pour mobile.</p><a href="#" onclick="return false;">Voir le projet ↗</a></div></article>
+        <article class="project p3"><div class="project-number">03</div><div><span>LANDING PAGE</span><h3>AI Launch</h3><p>Landing page conversion-first pour le lancement d'un produit tech.</p><a href="#" onclick="return false;">Voir le projet ↗</a></div></article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <p class="eyebrow">04 — CONTACT</p>
+      <h2>Un projet en tête ?<br><span>Parlons-en.</span></h2>
+      <p class="contact-copy">Remplace l'adresse ci-dessous par ton vrai email avant de publier le site.</p>
+      <a class="email" href="mailto:tonemail@example.com">tonemail@example.com ↗</a>
+      <div class="socials">
+        <a href="#" onclick="return false;">GitHub</a>
+        <a href="#" onclick="return false;">LinkedIn</a>
+        <a href="#" onclick="return false;">Instagram</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> — Web Developer</span>
+    <span>Conçu & développé avec passion.</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
