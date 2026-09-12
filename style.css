@@ -37,3 +37,44 @@ footer{border-top:1px solid var(--line);max-width:1180px;margin:auto;padding:25p
   .about{grid-template-columns:1fr;gap:35px}.skills-grid{grid-template-columns:1fr 1fr}.project-grid{grid-template-columns:1fr}.section{padding:90px 28px}.section-heading{display:block}.section-heading>p{margin-top:18px}footer{gap:12px;flex-direction:column}
 }
 @media(max-width:480px){.skills-grid{grid-template-columns:1fr}.stats{gap:25px}.terminal{transform:none}pre{font-size:11px;padding:20px 16px}.lead{font-size:16px}}
+
+/* --- Icônes sociales colorées (priorité max) --- */
+.socials {
+  display: flex;
+  gap: 2.5rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.socials a {
+  color: inherit;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0;
+  transition: transform 0.25s ease, filter 0.25s ease;
+}
+
+.socials a:hover {
+  transform: translateY(-4px) scale(1.1);
+  filter: brightness(1.15);
+}
+
+.socials svg {
+  width: 38px;
+  height: 38px;
+  display: block;
+}
+
+.socials a[aria-label="LinkedIn"] svg {
+  fill: #0A66C2 !important;
+}
+
+.socials a[aria-label="Instagram"] svg {
+  fill: #E4405F !important;
+}
+
+.socials a[aria-label="WhatsApp"] svg {
+  fill: #25D366 !important;
+}
