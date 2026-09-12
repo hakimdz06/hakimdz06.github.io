@@ -721,18 +721,49 @@ footer{
 
 .socials{
   display:flex;
+  align-items:center;
   justify-content:flex-end;
-  gap:14px;
+  gap:18px;
 }
 
 .socials a{
-  font-size:12px;
-  transition:.25s;
+  width:38px;
+  height:38px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  color:#ffffff;
+  border:1px solid #263328;
+  border-radius:50%;
+  background:#080d0a;
+  transition:transform .25s ease,
+             border-color .25s ease,
+             box-shadow .25s ease;
+}
+
+.socials a svg{
+  width:21px;
+  height:21px;
+  display:block;
+  fill:currentColor;
+}
+
+.socials a:nth-child(1){
+  color:#0A66C2;
+}
+
+.socials a:nth-child(2){
+  color:#E4405F;
+}
+
+.socials a:nth-child(3){
+  color:#25D366;
 }
 
 .socials a:hover{
-  color:var(--green);
-  transform:translateY(-3px);
+  transform:translateY(-4px) scale(1.08);
+  border-color:var(--green);
+  box-shadow:0 0 18px rgba(141,255,50,.20);
 }
 
 /* ================= MOBILE ================= */
