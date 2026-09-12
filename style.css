@@ -927,3 +927,183 @@ footer{
     width:auto;
   }
 }
+/* ===== CORRECTION MOBILE FINALE ===== */
+
+@media (max-width: 800px){
+
+  html,
+  body{
+    width:100%;
+    max-width:100%;
+    overflow-x:hidden !important;
+  }
+
+  .hero,
+  .section,
+  footer{
+    width:100%;
+    max-width:100%;
+  }
+
+  .hero{
+    padding-left:20px;
+    padding-right:20px;
+    overflow:hidden;
+  }
+
+  h1{
+    max-width:100%;
+    font-size:clamp(42px,12vw,54px);
+    letter-spacing:-3px;
+    overflow-wrap:break-word;
+  }
+
+  .lead{
+    max-width:100%;
+  }
+
+  .hero-visual{
+    width:100%;
+    max-width:100%;
+    overflow:hidden;
+  }
+
+  .laptop{
+    width:420px;
+    max-width:none;
+    transform:scale(.62) rotateZ(-3deg);
+    transform-origin:center;
+  }
+
+  .section{
+    overflow:hidden;
+  }
+
+  .section h2{
+    max-width:100%;
+    overflow-wrap:break-word;
+  }
+
+  .project{
+    width:100%;
+    max-width:100%;
+  }
+
+  .about-text{
+    width:100%;
+  }
+
+  .about-text h2{
+    max-width:100%;
+  }
+
+  .contact{
+    width:100%;
+  }
+
+  .contact-copy{
+    max-width:100%;
+  }
+
+  .email{
+    max-width:100%;
+    overflow-wrap:anywhere;
+    word-break:break-word;
+  }
+
+  footer{
+    overflow:hidden;
+  }
+}
+
+@media (max-width:480px){
+
+  .nav{
+    padding:0 18px;
+  }
+
+  .logo,
+  .logo img{
+    width:145px;
+  }
+
+  h1{
+    font-size:44px;
+    line-height:.96;
+  }
+
+  .lead{
+    font-size:14px;
+  }
+
+  .actions .button{
+    padding:13px 16px;
+  }
+
+  .hero-visual{
+    height:220px;
+  }
+
+  .laptop{
+    transform:scale(.52) rotateZ(-3deg);
+  }
+
+  .stats{
+    width:100%;
+    justify-content:space-between;
+  }
+
+  .stats>div{
+    padding-right:10px;
+  }
+
+  .stats strong{
+    font-size:20px;
+  }
+
+  .stats small{
+    font-size:7px;
+  }
+
+  .services-grid{
+    gap:12px;
+  }
+
+  .service{
+    min-height:150px;
+    padding:20px;
+  }
+
+  .project{
+    padding:8px;
+  }
+
+  .project-image{
+    height:130px;
+  }
+
+  .about-cards{
+    gap:10px;
+  }
+
+  .about-card{
+    min-height:140px;
+  }
+
+  .skills-list{
+    gap:9px;
+  }
+
+  .skill{
+    min-width:0;
+    height:70px;
+  }
+
+  .contact h2{
+    font-size:47px;
+  }
+
+  .email{
+    font-size:16px;
+  }
+}
