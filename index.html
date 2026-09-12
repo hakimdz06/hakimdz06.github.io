@@ -3,15 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <meta name="description" content="HakimLabs — Développeur web freelance. Sites modernes, rapides et responsives.">
-
-  <title>HakimLabs — Développeur Web</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-
+  <title>HakimLabs — Développeur Web Freelance</title>
+  <meta name="description" content="HakimLabs — Création de sites web modernes, rapides et performants.">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -19,9 +12,10 @@
 
 <div class="noise"></div>
 
+<!-- HEADER -->
 <header class="nav">
 
-  <a class="logo" href="#home">
+  <a href="#home" class="logo">
     <img src="file_000000001964824393e79c2df83f0c52.png" alt="HakimLabs">
   </a>
 
@@ -39,23 +33,27 @@
 </header>
 
 
-<main>
-
 <!-- HERO -->
+<main id="home">
 
-<section id="home" class="hero">
+<section class="hero">
 
-  <div class="hero-copy">
+  <div class="hero-content">
 
-    <p class="eyebrow">DÉVELOPPEUR WEB · FREELANCE</p>
+    <div class="eyebrow">
+      DÉVELOPPEUR WEB · FREELANCE
+    </div>
 
     <h1>
-      Je transforme vos idées en
+      Je transforme<br>
+      vos idées en<br>
       <span>expériences web.</span>
     </h1>
 
     <p class="lead">
-      Je conçois des sites modernes, rapides et sur mesure avec une attention particulière portée au design, aux performances et à l'expérience utilisateur.
+      Je conçois des sites modernes, rapides et sur mesure avec une
+      attention particulière portée au design, aux performances et à
+      l’expérience utilisateur.
     </p>
 
     <div class="actions">
@@ -90,27 +88,54 @@
   </div>
 
 
-  <div class="hero-card">
+  <!-- LAPTOP -->
+  <div class="hero-visual">
 
-    <div class="terminal">
+    <div class="ideas">
+      Good<br>
+      Ideas<br>
+      <span>Better Web</span>
+    </div>
 
-      <div class="terminal-top">
-        <i></i>
-        <i></i>
-        <i></i>
-        <span>developer.js</span>
+    <div class="laptop">
+
+      <div class="laptop-screen">
+
+        <div class="screen-glow"></div>
+
+        <img
+          src="file_000000001964824393e79c2df83f0c52.png"
+          alt="HakimLabs"
+        >
+
       </div>
 
-      <pre><code><span class="purple">const</span> developer = {
-  role: <span class="green">"Web Developer"</span>,
-  focus: <span class="green">"Modern Web"</span>,
-  stack: [
-    <span class="green">"HTML"</span>,
-    <span class="green">"CSS"</span>,
-    <span class="green">"JavaScript"</span>
-  ],
-  status: <span class="green">"available"</span>
-};</code></pre>
+      <div class="laptop-base"></div>
+
+    </div>
+
+
+    <div class="hero-features">
+
+      <div>
+        <span>▣</span>
+        Design moderne
+      </div>
+
+      <div>
+        <span>ϟ</span>
+        Performance
+      </div>
+
+      <div>
+        <span>▥</span>
+        SEO optimisé
+      </div>
+
+      <div>
+        <span>♧</span>
+        Support 24/7
+      </div>
 
     </div>
 
@@ -120,39 +145,57 @@
 
 
 <!-- SERVICES -->
-
-<section class="section services">
-
-  <p class="eyebrow">MES SERVICES</p>
+<section class="section services" id="services">
 
   <div class="section-heading">
-    <h2>Des solutions web <span>complètes.</span></h2>
+
+    <div>
+      <div class="eyebrow">MES SERVICES</div>
+
+      <h2>
+        Des solutions web <span>complètes</span>
+      </h2>
+    </div>
+
+    <a href="#contact" class="more-link">
+      Voir tous les services →
+    </a>
+
   </div>
+
 
   <div class="services-grid">
 
-    <article>
+    <article class="service">
       <div class="service-icon">▣</div>
       <h3>Sites vitrine</h3>
-      <p>Des sites modernes pour valoriser votre activité.</p>
+      <p>
+        Des sites modernes pour valoriser votre activité.
+      </p>
     </article>
 
-    <article>
+    <article class="service">
       <div class="service-icon">🛒</div>
       <h3>Boutiques en ligne</h3>
-      <p>Des solutions e-commerce rapides et performantes.</p>
+      <p>
+        Des solutions e-commerce rapides et performantes.
+      </p>
     </article>
 
-    <article>
+    <article class="service">
       <div class="service-icon">&lt;/&gt;</div>
       <h3>Applications web</h3>
-      <p>Des outils sur mesure adaptés à vos besoins.</p>
+      <p>
+        Des outils sur mesure adaptés à vos besoins.
+      </p>
     </article>
 
-    <article>
+    <article class="service">
       <div class="service-icon">◉</div>
-      <h3>UI / UX Design</h3>
-      <p>Des interfaces modernes et intuitives.</p>
+      <h3>UI/UX Design</h3>
+      <p>
+        Des interfaces modernes et intuitives.
+      </p>
     </article>
 
   </div>
@@ -161,17 +204,21 @@
 
 
 <!-- PROJECTS -->
-
-<section id="projects" class="section projects">
+<section class="section projects" id="projects">
 
   <div class="section-heading">
 
     <div>
-      <p class="eyebrow">MES RÉALISATIONS</p>
-      <h2>Quelques projets <span>récents.</span></h2>
+      <div class="eyebrow">MES RÉALISATIONS</div>
+
+      <h2>
+        Quelques projets <span>récents</span>
+      </h2>
     </div>
 
-    <a href="#contact" class="more-link">Voir tous les projets →</a>
+    <a href="#projects" class="more-link">
+      Voir tous les projets →
+    </a>
 
   </div>
 
@@ -181,16 +228,19 @@
     <article class="project">
 
       <div class="project-image project-one">
-        <span>HakimLabs</span>
+        <span>REAL ESTATE</span>
       </div>
 
       <div class="project-info">
-        <div>
-          <h3>RealEstate</h3>
-          <p>Site immobilier moderne</p>
-        </div>
 
-        <a href="#" onclick="return false;">↗</a>
+        <h3>RealEstate</h3>
+
+        <p>
+          Site immobilier moderne
+        </p>
+
+        <a href="#">↗</a>
+
       </div>
 
     </article>
@@ -203,12 +253,15 @@
       </div>
 
       <div class="project-info">
-        <div>
-          <h3>FitZone</h3>
-          <p>Site e-commerce fitness</p>
-        </div>
 
-        <a href="#" onclick="return false;">↗</a>
+        <h3>FitZone</h3>
+
+        <p>
+          Site e-commerce fitness
+        </p>
+
+        <a href="#">↗</a>
+
       </div>
 
     </article>
@@ -221,12 +274,15 @@
       </div>
 
       <div class="project-info">
-        <div>
-          <h3>Le Gourmet</h3>
-          <p>Site restaurant</p>
-        </div>
 
-        <a href="#" onclick="return false;">↗</a>
+        <h3>Le Gourmet</h3>
+
+        <p>
+          Site restaurant
+        </p>
+
+        <a href="#">↗</a>
+
       </div>
 
     </article>
@@ -237,61 +293,64 @@
 
 
 <!-- ABOUT -->
+<section class="section about-section" id="about">
 
-<section id="about" class="section about">
+  <div class="about">
 
-  <div class="about-text">
+    <div class="about-text">
 
-    <p class="eyebrow">À PROPOS</p>
+      <div class="eyebrow">À PROPOS</div>
 
-    <h2>
-      Passionné par le web,
-      orienté vers les <span>résultats.</span>
-    </h2>
+      <h2>
+        Passionné par le web,<br>
+        orienté vers les <span>résultats.</span>
+      </h2>
 
-    <p>
-      Je m'appelle Hakim, développeur web freelance.
-      J'aide les entreprises et les particuliers à créer des sites modernes,
-      rapides et efficaces.
-    </p>
+      <p>
+        Je m'appelle Hakim, développeur web freelance.
+        J'aide les entreprises et les particuliers à créer des sites
+        modernes, rapides et efficaces.
+      </p>
 
-    <p>
-      Mon objectif est simple : transformer vos idées en solutions digitales
-      qui ont un réel impact.
-    </p>
+      <p>
+        Mon objectif est simple : transformer vos idées en solutions
+        digitales qui ont un réel impact.
+      </p>
 
-    <a href="#contact" class="button primary">
-      En savoir plus ↗
-    </a>
+      <a href="#contact" class="button primary">
+        En savoir plus ↗
+      </a>
 
-  </div>
+    </div>
 
 
-  <div class="about-cards">
+    <div class="about-cards">
 
-    <article>
-      <strong>⌕</strong>
-      <h3>Écoute</h3>
-      <p>Je comprends vos besoins.</p>
-    </article>
+      <div class="about-card">
+        <div class="card-icon">♧</div>
+        <strong>Écoute</strong>
+        <span>Je comprends vos besoins</span>
+      </div>
 
-    <article>
-      <strong>◎</strong>
-      <h3>Stratégie</h3>
-      <p>Des solutions adaptées.</p>
-    </article>
+      <div class="about-card">
+        <div class="card-icon">◎</div>
+        <strong>Stratégie</strong>
+        <span>Des solutions adaptées</span>
+      </div>
 
-    <article>
-      <strong>⚡</strong>
-      <h3>Qualité</h3>
-      <p>Un code propre et performant.</p>
-    </article>
+      <div class="about-card">
+        <div class="card-icon">🚀</div>
+        <strong>Qualité</strong>
+        <span>Un code propre et performant</span>
+      </div>
 
-    <article>
-      <strong>♧</strong>
-      <h3>Satisfaction</h3>
-      <p>Votre réussite est ma priorité.</p>
-    </article>
+      <div class="about-card">
+        <div class="card-icon">♧</div>
+        <strong>Satisfaction</strong>
+        <span>Votre réussite est ma priorité</span>
+      </div>
+
+    </div>
 
   </div>
 
@@ -299,25 +358,67 @@
 
 
 <!-- SKILLS -->
+<section class="section skills-section" id="skills">
 
-<section id="skills" class="section skills">
+  <div class="skills-title">
 
-  <p class="eyebrow">MES COMPÉTENCES</p>
+    <div>
+      <div class="eyebrow">MES COMPÉTENCES</div>
 
-  <h2>
-    Un stack moderne et <span>efficace.</span>
-  </h2>
+      <h2>
+        Un stack moderne et <span>efficace.</span>
+      </h2>
+    </div>
+
+  </div>
+
 
   <div class="skills-list">
 
-    <span>HTML5</span>
-    <span>CSS3</span>
-    <span>JavaScript</span>
-    <span>React</span>
-    <span>Node.js</span>
-    <span>Python</span>
-    <span>Git</span>
-    <span>Figma</span>
+    <div class="skill">
+      <b>01</b>
+      <h3>HTML5</h3>
+    </div>
+
+    <div class="skill">
+      <b>02</b>
+      <h3>CSS3</h3>
+    </div>
+
+    <div class="skill">
+      <b>03</b>
+      <h3>JavaScript</h3>
+    </div>
+
+    <div class="skill">
+      <b>04</b>
+      <h3>React</h3>
+    </div>
+
+    <div class="skill">
+      <b>05</b>
+      <h3>Node.js</h3>
+    </div>
+
+    <div class="skill">
+      <b>06</b>
+      <h3>Python</h3>
+    </div>
+
+    <div class="skill">
+      <b>07</b>
+      <h3>Git</h3>
+    </div>
+
+    <div class="skill">
+      <b>08</b>
+      <h3>Figma</h3>
+    </div>
+
+    <div class="skill">
+      <b>09</b>
+      <h3>MongoDB</h3>
+    </div>
 
   </div>
 
@@ -325,36 +426,41 @@
 
 
 <!-- CONTACT -->
+<section class="section contact" id="contact">
 
-<section id="contact" class="section contact">
+  <div class="contact-content">
 
-  <div>
+    <div>
+      <div class="eyebrow">UN PROJET ?</div>
 
-    <p class="eyebrow">UN PROJET ?</p>
+      <h2>
+        Discutons<span>-en.</span>
+      </h2>
 
-    <h2>
-      Discutons<span>-en.</span>
-    </h2>
-
-    <p>
-      Vous avez une idée ou un projet en tête ?
-      Je suis disponible pour en discuter et vous aider à le réaliser.
-    </p>
-
-  </div>
+      <p class="contact-copy">
+        Vous avez une idée ou un projet en tête ?
+        Je suis disponible pour en discuter et vous aider à le réaliser.
+      </p>
+    </div>
 
 
-  <div class="contact-action">
+    <div class="contact-action">
 
-    <a href="mailto:hakimnaiteldjoudi11@gmail.com"
-       class="button primary">
-      Me contacter ↗
-    </a>
+      <a
+        href="mailto:hakimnaiteldjoudi11@gmail.com"
+        class="button primary"
+      >
+        Me contacter ↗
+      </a>
 
-    <a class="email"
-       href="mailto:hakimnaiteldjoudi11@gmail.com">
-      hakimnaiteldjoudi11@gmail.com
-    </a>
+      <a
+        href="mailto:hakimnaiteldjoudi11@gmail.com"
+        class="email"
+      >
+        hakimnaiteldjoudi11@gmail.com
+      </a>
+
+    </div>
 
   </div>
 
@@ -364,17 +470,19 @@
 
 
 <!-- FOOTER -->
-
 <footer>
 
-  <div class="footer-logo">
+  <div class="footer-left">
 
-    <a class="logo" href="#home">
-      <img src="file_000000001964824393e79c2df83f0c52.png"
-           alt="HakimLabs">
-    </a>
+    <img
+      src="file_000000001964824393e79c2df83f0c52.png"
+      alt="HakimLabs"
+      class="footer-logo"
+    >
 
-    <p>© <span id="year"></span> HakimLabs. Tous droits réservés.</p>
+    <p>
+      © 2026 HakimLabs. Tous droits réservés.
+    </p>
 
   </div>
 
@@ -392,24 +500,27 @@
 
   <div class="socials">
 
-    <a href="https://www.linkedin.com/in/hakim-nait-el-djoudi-57aa7b25"
-       target="_blank"
-       rel="noopener"
-       aria-label="LinkedIn">
+    <a
+      href="https://www.linkedin.com/in/hakim-nait-el-djoudi-57aa7b25"
+      aria-label="LinkedIn"
+      target="_blank"
+    >
       in
     </a>
 
-    <a href="https://www.instagram.com/hakim62526"
-       target="_blank"
-       rel="noopener"
-       aria-label="Instagram">
+    <a
+      href="https://www.instagram.com/hakim62526"
+      aria-label="Instagram"
+      target="_blank"
+    >
       ◎
     </a>
 
-    <a href="https://wa.me/213555231280"
-       target="_blank"
-       rel="noopener"
-       aria-label="WhatsApp">
+    <a
+      href="https://wa.me/213555231280"
+      aria-label="WhatsApp"
+      target="_blank"
+    >
       ◉
     </a>
 
